@@ -103,7 +103,5 @@
   ],
   "cleanUrls": true,
   "trailingSlash": false,
-  "outputFileTracing": true,
-  "regions": ["sfo1"],
-  "edgeNetwork": true
+  
 }

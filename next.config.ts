@@ -63,9 +63,6 @@ const nextConfig: NextConfig = {
   
   // Production optimizations
   productionBrowserSourceMaps: false,
-  
-  // Output configuration
-  output: 'standalone',
 };
 
 export default nextConfig;

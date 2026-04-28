@@ -15,7 +15,7 @@ const boardMembers = [
   {
     role: "Board Chair",
     title: "Strategic Visionary",
-    description: "Senior executive from the Dayton aerospace/manufacturing sector tasked with finalizing the lease for a facility of up to 10,000 sq. ft. and leading the "Founding Donors" campaign.",
+    description: "Senior executive from the Dayton aerospace/manufacturing sector tasked with finalizing the lease for a facility of up to 10,000 sq. ft. and leading the \"Founding Donors\" campaign.",
   },
   {
     role: "Board Treasurer",
@@ -35,7 +35,7 @@ const boardMembers = [
   {
     role: "Development Chair",
     title: "Resource Connector",
-    description: "Professional fundraiser dedicated to securing private philanthropic support and launching "Impact Sponsor" initiatives.",
+    description: "Professional fundraiser dedicated to securing private philanthropic support and launching \"Impact Sponsor\" initiatives.",
   },
 ];
 
@@ -81,7 +81,7 @@ const responsibleAIPillars = [
 
 const year1Goals = [
   "Finalize the lease for facility (up to 10,000 sq. ft.)",
-  "Launch "Founding Donors" capital campaign",
+  "Launch \"Founding Donors\" capital campaign",
   "Establish audit and grant compliance protocols",
   "Complete industry validation of stacked credentials",
   "Secure initial $980,591 Year 1 funding",
