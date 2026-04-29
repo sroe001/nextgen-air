@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ScrollReveal from "@/components/ScrollReveal";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Us | NextGen AIR Academy - Ethical AI Education",
@@ -151,11 +152,12 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <ScrollReveal>
               <div className="glass rounded-2xl p-8 card-hover">
-                <div className="w-24 h-24 rounded-full overflow-hidden mb-6 mx-auto">
-                  <img 
+                <div className="w-24 h-24 rounded-full overflow-hidden mb-6 mx-auto relative">
+                  <Image 
                     src="/steven-roe-sr-rocket-scientist.jpg" 
                     alt="Steven D. Roe, Sr."
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2">Steven D. Roe, Sr.</h3>
@@ -196,7 +198,7 @@ export default function AboutPage() {
               </h2>
               <p className="text-xl text-gray-400 max-w-2xl mx-auto">
                 We believe that as technology modernizes, it must remain human-centered. 
-                Our "Responsible AI" framework is "baked into" every lesson.
+                Our &ldquo;Responsible AI&rdquo; framework is &ldquo;baked into&rdquo; every lesson.
               </p>
             </div>
           </ScrollReveal>

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vercel.com/schemas/2025-05-01",
+  "$schema": "https://json.schemastore.org/vercel.json",
   "name": "nextgen-air",
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
@@ -102,6 +102,5 @@
     }
   ],
   "cleanUrls": true,
-  "trailingSlash": false,
-  
+  "trailingSlash": false
 }

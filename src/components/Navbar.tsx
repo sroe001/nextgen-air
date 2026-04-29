@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
@@ -46,10 +47,12 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center space-x-2" aria-label="NextGen AIR Academy Home">
-              <img
+              <Image
                 src="/nextgen-air-logo.png"
                 alt="NextGen AIR Logo"
-                className="w-[105px] h-[105px] object-contain mt-[20px]"
+                width={105}
+                height={105}
+                className="object-contain mt-[20px]"
               />
               <span className="text-white font-bold text-xl tracking-tight">
                 NextGen <span className="text-crayola">AIR</span>
