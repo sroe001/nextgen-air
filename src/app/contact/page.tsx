@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ScrollReveal from "@/components/ScrollReveal";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Contact Us | Partner With NextGen AIR Academy",
@@ -315,11 +316,12 @@ export default function ContactPage() {
                 <div className="glass rounded-2xl p-8 card-hover">
                   <div className="flex items-center mb-6">
                     {leader.icon === "SR" ? (
-                      <div className="w-16 h-16 rounded-full overflow-hidden mr-4">
-                        <img 
+                      <div className="w-16 h-16 rounded-full overflow-hidden mr-4 relative">
+                        <Image 
                           src="/steven-roe-sr-rocket-scientist.jpg" 
                           alt="Steven D. Roe, Sr."
-                          className="w-full h-full object-cover"
+                          fill
+                          className="object-cover"
                         />
                       </div>
                     ) : (

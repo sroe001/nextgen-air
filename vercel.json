@@ -84,23 +84,6 @@
       ]
     }
   ],
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/",
-      "permanent": true
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/sitemap.xml",
-      "destination": "/public/sitemap.xml"
-    },
-    {
-      "source": "/robots.txt",
-      "destination": "/public/robots.txt"
-    }
-  ],
   "cleanUrls": true,
   "trailingSlash": false
 }

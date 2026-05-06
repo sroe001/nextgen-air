@@ -8,7 +8,7 @@ If you already have a GitHub repository created, run these commands from the `ne
 
 ```bash
 # Replace [your-repository-url] with your actual GitHub repository URL
-git remote add origin [your-repository-url]
+git remote add origin [(https://github.com/sroe001/nextgen-air.git)]
 git branch -M main
 git push -u origin main
 ```
@@ -18,7 +18,7 @@ git push -u origin main
 ### Step 1: Create GitHub Repository
 
 1. Go to [https://github.com/new](https://github.com/new)
-2. Repository name: `nextgen-air-website` (or your preferred name)
+2. Repository name: `nextgen-air` (or your preferred name)
 3. Description: "NextGen AIR Academy - AI training platform for empowering overlooked talent"
 4. **Important**: Do NOT initialize with README, .gitignore, or license
 5. Choose public or private as needed
@@ -73,7 +73,7 @@ Your local repository contains:
 **If you get "remote origin already exists" error:**
 ```bash
 git remote remove origin
-git remote add origin [your-repository-url]
+git remote add origin [https://github.com/sroe001/nextgen-air.git]
 ```
 
 **If you get authentication errors:**
